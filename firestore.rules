@@ -1,0 +1,22 @@
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Shared daily challenge: authenticated users can read.
+    match /challenges/{challengeId} {
+      allow read: if request.auth != null;
+      allow write: if false;
+    }
+
+    // Learners can only read their own progress.
+    // All progress writes must go through trusted Cloud Functions.
+    match /users/{userId}/progress/{progressId} {
+      allow read: if request.auth != null
+                  && request.auth.uid == userId;
+
+      allow write: if false;
+    }
+  }
+}

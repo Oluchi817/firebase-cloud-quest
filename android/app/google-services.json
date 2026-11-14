@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "950997722778",
+    "firebase_url": "https://cw02-3-a0c3d-default-rtdb.firebaseio.com",
+    "project_id": "cw02-3-a0c3d",
+    "storage_bucket": "cw02-3-a0c3d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950997722778:android:db89591087563d0ff66123",
+        "android_client_info": {
+          "package_name": "com.example.firebase_cloud_quest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950997722778-krdd1gqebufp3a0748ludik8ar7mm6un.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqGmsMCHXkH_vIb4Asi11OpJy6D24tXgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950997722778-krdd1gqebufp3a0748ludik8ar7mm6un.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "950997722778-ctftbper8su5t8qgclmnb1uu3oq9q22q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseCloudQuest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
